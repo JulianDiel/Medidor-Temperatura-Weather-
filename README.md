@@ -8,7 +8,7 @@ Data funcionando;
 Pesquiza de Paises e cidades funcionando;
 
 O que não esta funcionando:
-Permitir Localização do Google, não está funcionando.
+Permitir Localização do Google, não está funcionando (pode ser pelo devido fato de estar usando url do terminal npx surge)
 
 Programa Simples, Medidor de Temperatura!
 
