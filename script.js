@@ -24,7 +24,7 @@ window.addEventListener('load', () => {
         navigator.geolocation.getCurrentPosition(setPosition, showError);
     }
     else {
-        alert('navegador não suporta geolozalicação');
+        alert('navegador não suporta geolocalicação');
     }
     function setPosition(position) {
         console.log(position)
