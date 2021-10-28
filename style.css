@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+
+body{
+    font-family: 'Arvo', serif;
+    background-color: black;
+    margin-top: 50px;
+    
+}
+
+.city{
+    font-size: 32px;
+}
+
+.date {
+    font-size: 16px;
+}
+
+.container-temp{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(235, 183, 13);
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+
+    font-size: 100px;
+    font-weight: 900;
+    text-shadow: 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+.weather{
+    font-size: 32px;
+    background-color: rgb(231, 172, 9);
+}
+
+.low-high {
+    font-size: 22px;
+}
+@media screen and (min-device-width: 320px) and (max-device-width: 520px){
+        body{
+            font-family: 'Arvo', serif;
+            background-color: rgb(5, 5, 5);
+            margin-top: 50px;
+        }
+        
+        .city{
+            font-size: 32px;
+            
+        }
+        
+        .date {
+            font-size: 16px;
+        }
+        
+        .container-temp{
+            display: flex;
+            justify-content: center;
+            background-color: rgb(235, 183, 13);
+            box-shadow: 3px 3px rgba(0, 0, 0, 0.6);
+            cursor: pointer;
+        
+            font-size: 100px;
+            font-weight: 900;
+            text-shadow: 3px 6px rgba(0, 0, 0, 0.2);
+        }
+        
+        .weather{
+            font-size: 32px;
+            background-color: rgb(235, 183, 13);
+            
+        }
+        
+        .low-high {
+            font-size: 22px;
+        }
+    }
